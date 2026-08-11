@@ -36,6 +36,10 @@ Accurately identifying potential defaulters helps financial institutions manage 
 
 > https://github.com/ayansGit/loan-default-prediction-ml-assignment
 
+## Live Streamlit App
+
+> https://loan-default-prediction-ml-assignment.streamlit.app
+
 ---
 
 ## d. Models Used

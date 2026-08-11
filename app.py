@@ -12,8 +12,7 @@ from sklearn.metrics import (
     recall_score,
     f1_score,
     matthews_corrcoef,
-    confusion_matrix,
-    classification_report
+    confusion_matrix
 )
 
 st.set_page_config(
@@ -95,12 +94,6 @@ if uploaded_file is not None:
         ax.set_ylabel("Actual")
         ax.set_title(f"Confusion Matrix — {selected_model}")
         st.pyplot(fig)
-
-        # ── Classification Report ──
-        st.subheader("Classification Report")
-        report = classification_report(y_upload, y_pred,
-                    target_names=["No Default", "Default"])
-        st.text(report)
 
         # ── Model Comparison Table ──
         st.subheader("All Models Comparison")
