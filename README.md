@@ -36,8 +36,6 @@ Accurately identifying potential defaulters helps financial institutions manage 
 
 > https://github.com/ayansGit/loan-default-prediction-ml-assignment
 
-*(Replace with your actual GitHub repository link)*
-
 ---
 
 ## d. Models Used
