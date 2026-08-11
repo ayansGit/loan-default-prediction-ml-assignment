@@ -1,0 +1,30 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter & IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Large raw data file (not needed for app)
+loan_default.xls
+
+# Environment variables
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
